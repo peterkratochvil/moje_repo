@@ -64,6 +64,6 @@ if __name__ == '__main__':
     for row in data:
       execute_test(row)
       cleanup()
-      time.sleep(5)
+      time.sleep(1)
   except IndexError:
     print "End of the data source file reached, closing the test"
